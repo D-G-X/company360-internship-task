@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Company360.in Task</title>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+	<div class="container">
+	<div id="row">
+		<form>
+			<div class="input-element col-xs-12 col-sm-11 col-md-5"><input class="input-value" type="email" id="email" name="email" placeholder="Email*" required="true">
+			</div>
+			<div class="input-element col-xs-12 col-sm-11 col-md-5"><input class="input-value" id="phone" type="tel" name="MobileNum" placeholder="Mobile Number*" required="true">
+			</div>
+			<div class="input-element col-xs-12 col-sm-11 col-md-5">
+				<select class="input-value" required id="city">
+				  <option value="">Select City*</option>
+				  <option value="Mumbai">Mumbai</option>
+				  <option value="Navi Mumbai">Navi Mumbai</option>
+				  <option value="Thane">Thane</option>
+				  <option value="Nagpur">Nagpur</option>
+				  <option value="Pune">Pune</option>
+				  <option value="Nashik">Nashik</option>
+				  <option value="Kolhapur">Kolhapur</option>
+				</select>
+			</div>
+			<div class="input-element col-xs-12 col-sm-11 col-md-5">
+				<select class="input-value" required id="language">
+				  <option value="">Select Language*</option>
+				  <option value="English">English</option>
+				  <option value="Hindi">Hindi</option>
+				  <option value="Marathi">Marathi</option>
+				  <option value="Konkani">Konkani</option>
+				  <option value="Malyalam">Malyalam</option>
+				  <option value="Kanada">Kanada</option>
+				</select>
+			</div>
+			<div id="addtocartbox">
+				<input type="submit" id="addtocart" name="submit" value="Add to Cart" onclick ="form_check()">
+			</div>
+			<div class="col-sm-12 prompt-box">
+				<div id="prompt">
+					<p>Need to speak to an expert?</p>
+					<a class="fclink" href="FreeConsultation.html">Get Free Consultation</a>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+</body>
+<script src="js/script.js"></script>
+</html>
